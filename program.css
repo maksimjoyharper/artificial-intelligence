@@ -1,0 +1,257 @@
+.program {
+  position: relative;
+  width: 1160px;
+  height: 691px;
+  margin: auto;
+  margin-bottom: 200px;
+}
+.program_images {
+  position: absolute;
+  width: 992px;
+  height: 488px;
+  left: 168px;
+  top: 0px;
+}
+.program_text {
+  width: 1160px;
+  height: 691px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+}
+.program_text_h2 {
+  width: 565px;
+  height: 148px;
+  margin: 0;
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 74px;
+
+  color: #f4f4f4;
+}
+.program_text_span {
+  width: 471px;
+  height: 96px;
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 24px;
+  display: block;
+
+  color: #b8b8b8;
+}
+
+.program_button {
+  width: 166px;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  cursor: pointer;
+
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #99a9ff;
+  background: none;
+
+  border: none;
+}
+.program_arrow {
+  position: absolute;
+  width: 25px;
+  height: 12px;
+  left: 140px;
+}
+
+.program-big-centered {
+  position: absolute;
+  width: 893px;
+  height: 488px;
+  z-index: -2;
+}
+.program-arrow-2 {
+  position: absolute;
+  width: 25px;
+  height: 12px;
+  left: 140px;
+}
+.program-small-right {
+  position: absolute;
+  width: 268px;
+  height: 368px;
+  left: 684px;
+  top: 60px;
+  z-index: -1;
+}
+
+.lighting_circle {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  left: 23px;
+  top: 63px;
+  background: radial-gradient(50% 50% at 50% 50%, #5ce4cf 35.25%, #99a9ff 100%);
+  filter: blur(55px);
+  z-index: -3;
+}
+
+.title-sub-title {
+  width: 1160px;
+  height: 154px;
+
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 75px;
+}
+
+.title {
+  width: 664px;
+  height: 154px;
+  display: inline;
+
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 74px;
+  text-transform: capitalize;
+
+  color: #f4f4f4;
+}
+.title-numbers {
+  font-size: 5rem;
+}
+
+.sub-title {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 24px;
+  display: block;
+
+  color: #b8b8b8;
+}
+
+@media (max-width: 360px) {
+  .program {
+    position: relative;
+    width: 320px;
+    height: 508px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  .program_images {
+    position: relative;
+    width: 320px;
+    height: 160px;
+    margin: 0;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .program-big-centered {
+    position: absolute;
+    width: 290px;
+    height: 160px;
+    left: 0;
+    top: 0;
+  }
+  .program_text {
+    width: 320px;
+    height: 308px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0px;
+    gap: 30px;
+  }
+  .program_text_h2 {
+    width: 360px;
+    height: 88px;
+    font-family: "Ginora Sans";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .program_text_span {
+    width: 318px;
+    height: 144px;
+    display: block;
+
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .program-small-right {
+    position: absolute;
+    width: 85px;
+    height: 116px;
+    left: 235px;
+    top: 20px;
+    z-index: -1;
+  }
+  .lighting_circle {
+    display: none;
+  }
+  .title-sub-title {
+    width: 322px;
+    height: 344px;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+  }
+
+  .title {
+    width: 322px;
+    height: 132px;
+
+    font-family: "Ginora Sans";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #f4f4f4;
+  }
+  .title-numbers {
+    font-size: 3rem;
+  }
+
+  .sub-title {
+    width: 322px;
+    display: inline;
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #b8b8b8;
+  }
+}

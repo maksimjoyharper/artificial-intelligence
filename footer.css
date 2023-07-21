@@ -1,0 +1,415 @@
+footer {
+  position: relative;
+  width: 1440px;
+  height: 608px;
+  margin: auto;
+}
+.footer-text-box {
+  width: 1160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 90px;
+}
+.left {
+  width: 565px;
+  display: flex;
+  flex-direction: column;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #b8b8b8;
+}
+.left-text {
+  display: block;
+}
+.left-title {
+  margin-bottom: 40px;
+  font-family: Ginora Sans;
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  background: #8093ff;
+  background: linear-gradient(to top right, #8093ff 0%, #66ffe5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.left-text-bottom {
+  padding-top: 212px;
+  font-family: Ginora Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  color: #b8b8b8;
+}
+
+.text-bottom-color:hover {
+  color: #99a9ff;
+}
+.right {
+  position: relative;
+  width: 466px;
+  display: flex;
+  flex-direction: column;
+}
+.input-name {
+  width: 466px;
+  height: 48px;
+  border: none;
+  background: none;
+  padding: 0;
+  padding-left: 25px;
+  border-bottom: 2px #565656;
+
+  font-family: "Ginora Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.input-name::placeholder {
+  font-family: "Gilroy-Regular";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #b8b8b8;
+}
+.image-input-1 {
+  position: absolute;
+  top: 81px;
+  left: 25px;
+}
+.input-email {
+  width: 466px;
+  height: 48px;
+  border: none;
+  background: none;
+  padding: 0;
+  padding-left: 25px;
+
+  font-family: "Ginora Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.input-email::placeholder {
+  font-family: "Gilroy-Regular";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #b8b8b8;
+}
+.image-input-2 {
+  position: absolute;
+  top: 168px;
+  left: 25px;
+}
+.input-message {
+  width: 466px;
+  height: 48px;
+  border: none;
+  background: none;
+  padding: 0;
+  padding-left: 25px;
+
+  font-family: "Ginora Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.input-message::placeholder {
+  font-family: "Gilroy-Regular";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #b8b8b8;
+}
+.image-input-3 {
+  position: absolute;
+  top: 255px;
+  left: 25px;
+}
+.grey-line-input1 {
+  position: absolute;
+  top: 82px;
+  z-index: -1;
+}
+.grey-line-input2 {
+  position: absolute;
+  top: 169px;
+  z-index: -1;
+}
+.grey-line-input3 {
+  position: absolute;
+  top: 256px;
+  z-index: -1;
+}
+.right-button {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  cursor: pointer;
+
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #99a9ff;
+  background: none;
+
+  border: none;
+}
+.right-text-bottom {
+  margin-top: 108px;
+  font-family: "Ginora Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  color: #b8b8b8;
+}
+.text-bottom {
+  font-family: "Ginora Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3em;
+  text-align: center;
+  text-transform: uppercase;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  margin-bottom: 80px;
+}
+
+.footer-text-bottom {
+  width: 1440px;
+  height: 102px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+  font-family: Ginora Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3em;
+  text-align: center;
+  color: #b8b8b8;
+}
+
+.footer-spiral {
+  position: absolute;
+  left: 0;
+  bottom: 180px;
+}
+
+.footer-href-gradient {
+  text-decoration: none;
+  color: #99a9ff;
+}
+@media (max-width: 360px) {
+  footer {
+    width: 360px;
+  }
+  .footer-text-box {
+    width: 328px;
+    height: 537px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .left {
+    width: 328px;
+    height: 204px;
+    position: relative;
+  }
+  .left-title {
+    margin-bottom: 20px;
+    font-family: "Ginora Sans";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .left-text {
+    /* width: 300px; */
+    display: inline;
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .left-text-bottom {
+    position: absolute;
+    width: 267px;
+    height: 18px;
+    padding: 0;
+    margin: 0 auto;
+    top: 660px;
+    left: 46px;
+
+    display: flex;
+    gap: 20px;
+
+    font-family: "Ginora Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .footer-line {
+    position: absolute;
+    top: 750px;
+    left: ;
+    width: 360px;
+    height: 5px;
+  }
+  .text-bottom-color {
+  }
+  .right {
+    width: 320px;
+    height: 273px;
+    margin-top: 60px;
+  }
+  .input-name {
+    width: 320px;
+    height: 39px;
+
+    font-family: "Gilroy-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+  }
+  .image-input-1 {
+    width: 80px;
+    height: 3px;
+  }
+  .grey-line-input1 {
+    width: 320px;
+  }
+  .input-email {
+    width: 320px;
+    height: 39px;
+
+    font-family: "Gilroy-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .image-input-2 {
+    width: 80px;
+    height: 3px;
+  }
+  .grey-line-input2 {
+    width: 320px;
+  }
+  .input-message {
+    width: 320px;
+    height: 39px;
+    margin-top: 10px;
+
+    font-family: "Gilroy-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .image-input-3 {
+    width: 80px;
+    height: 3px;
+  }
+  .grey-line-input3 {
+    width: 320px;
+  }
+  .right-button {
+    margin: 0;
+    margin-top: 100px;
+  }
+  .right-text-bottom {
+    position: absolute;
+    top: 435px;
+    left: 70px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+    font-family: "Ginora Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .text-bottom {
+    font-family: "Ginora Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: none;
+    text-transform: capitalize;
+  }
+  .footer-text-bottom {
+    position: absolute;
+    top: 780px;
+    left: 73px;
+    width: 214px;
+    height: 16px;
+    margin: 0;
+
+    font-family: "Ginora Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: capitalize;
+  }
+  .footer-href-gradient {
+    text-decoration: underline;
+  }
+  .footer-spiral {
+    display: none;
+  }
+}

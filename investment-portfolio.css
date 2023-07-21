@@ -1,0 +1,145 @@
+.investment-portfolio {
+  width: 1160px;
+  height: 407px;
+  margin: auto;
+  margin-top: 300px;
+}
+.line-title {
+  width: 674px;
+  height: 74px;
+  margin-bottom: 90px;
+  display: inline;
+}
+.investment-portfolio-line {
+  margin-bottom: 30px;
+}
+.line-title-text {
+  margin-bottom: 90px;
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 74px;
+
+  text-transform: capitalize;
+  display: inline;
+  color: #f4f4f4;
+}
+.investsment-logos {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: capitalize;
+
+  color: #b8b8b8;
+}
+.investsment-logos-box {
+  width: 211px;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  box-sizing: border-box;
+  background-color: #1d1d1d;
+  transition: width 1s, height 1s background-color 1s;
+}
+.icon-grad:hover {
+}
+
+.investsment-logos-box > a {
+  text-decoration: none;
+  color: #b8b8b8;
+}
+.investsment-logos-box:hover {
+  background: #8093ff;
+  background: linear-gradient(to top right, #8093ff 0%, #66ffe5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-color: #30363a20;
+}
+
+.investsment-logos-box:active {
+  background: #8093ff;
+  background: linear-gradient(to top right, #3150ff 0%, #1cf9d5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-color: #30363a20;
+}
+
+@media (max-width: 360px) {
+  .investment-portfolio {
+    width: 360px;
+    height: 390px;
+    margin: 0 auto;
+    margin-top: 270px;
+  }
+  .investment-portfolio-line {
+    width: 360px;
+    height: 5px;
+    margin: 0 auto;
+  }
+  .line-title {
+    display: block;
+    width: 320px;
+    height: 88px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .line-title-text {
+    font-family: "Ginora Sans";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .investsment-logos {
+    width: 280px;
+    height: 222px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .investsment-logos-box {
+    width: 120px;
+    height: 25px;
+
+    font-family: "Ginora Sans";
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .investsment-logos-box:hover {
+    background: #8093ff;
+    background: linear-gradient(to top right, #8093ff 0%, #66ffe5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-gradient {
+    font-family: "Ginora Sans";
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

@@ -1,0 +1,193 @@
+.funding-2 {
+  position: relative;
+  width: 1160px;
+  height: 480px;
+  margin: auto;
+}
+.funding-2-text {
+  position: absolute;
+  width: 518px;
+  height: 253.38px;
+  left: 0;
+  top: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.funding-2-text-1 {
+  margin-top: 113px;
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+
+  color: rgba(184, 184, 184, 0.7);
+}
+.funding-2-text-2 {
+  margin-top: 6px;
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+
+  text-transform: capitalize;
+
+  color: #f4f4f4;
+}
+.funding-2-text-3 {
+  margin-top: 20px;
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #b8b8b8;
+}
+.program_button_3 {
+  margin-top: 45px;
+
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+
+  color: #5ce4cf;
+}
+
+.program_button_3:hover {
+  color: #34efd3;
+}
+.program_button_3:active {
+  color: #058975;
+}
+.funding-2-img-1 {
+  position: absolute;
+  width: 268px;
+  height: 390px;
+  left: 595px;
+  top: 30px;
+}
+.funding-2-img-2 {
+  position: absolute;
+  width: 466px;
+  height: 480px;
+  left: 694px;
+  top: 0px;
+  z-index: -1;
+}
+
+.funding-2-arrow {
+  position: absolute;
+  width: 25px;
+  height: 12px;
+  left: 140px;
+}
+
+@media (max-width: 360px) {
+  .funding-2 {
+    position: relative;
+    width: 322px;
+    height: 530px;
+    margin: auto;
+  }
+  .funding-2-text {
+    position: absolute;
+    width: 322px;
+    height: 870px;
+    margin: auto;
+    left: 0;
+    top: 113px;
+  }
+  .funding-2-text-1 {
+    margin-top: 290px;
+    font-family: "Ginora Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+
+    color: rgba(184, 184, 184, 0.7);
+  }
+  .funding-2-text-2 {
+    font-family: "Ginora Sans";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    text-transform: capitalize;
+
+    color: #f4f4f4;
+  }
+  .funding-2-text-3 {
+    width: 320px;
+    height: 96px;
+
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #b8b8b8;
+  }
+  .program_button_3 {
+    margin-top: 45px;
+
+    font-family: "Ginora Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+
+    color: #5ce4cf;
+  }
+  .funding-2-img-1 {
+    position: absolute;
+    width: 150px;
+    height: 220px;
+    left: 170px;
+    top: 30px;
+  }
+  .funding-2-img-2 {
+    position: absolute;
+    width: 290px;
+    height: 220px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+
+  .funding-2-arrow {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 140px;
+  }
+}

@@ -1,0 +1,380 @@
+.jobs {
+  position: relative;
+  width: 1160px;
+  height: 976px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.job-spots-title {
+  width: 565px;
+  height: 74px;
+  left: 0px;
+  top: 30px;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 140px;
+
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 74px;
+
+  color: #f4f4f4;
+}
+
+.job-spots {
+  width: 763px;
+  height: 636px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.job-1 {
+  width: 649px;
+  height: 159px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.job-1 > h3 {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.job-1 > h3:hover {
+  background: #99a9ff;
+  background: linear-gradient(to right, #99a9ff 0%, #5ce4cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.job-text-top {
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  letter-spacing: 0.3em;
+
+  color: rgba(184, 184, 184, 0.7);
+}
+
+.job-text {
+  display: block;
+  margin: 0;
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  color: #f4f4f4;
+}
+.job-text-bottom {
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #b8b8b8;
+}
+.job-long-arrow1 {
+  position: absolute;
+  width: 54px;
+  top: 347px;
+  left: 625px;
+}
+
+.job-spiral {
+  position: absolute;
+  width: 872px;
+  height: 456px;
+  top: 650px;
+  left: 750px;
+}
+.job-2 {
+  width: 649px;
+  height: 159px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.job-2 > h3 {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.job-2 > h3:hover {
+  background: #99a9ff;
+  background: linear-gradient(to right, #99a9ff 0%, #5ce4cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.job-long-arrow2 {
+  position: absolute;
+  width: 54px;
+  top: 590px;
+  left: 625px;
+}
+.job-3 {
+  width: 649px;
+  height: 159px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.job-3 > h3 {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.job-3 > h3:hover {
+  background: #99a9ff;
+  background: linear-gradient(to right, #99a9ff 0%, #5ce4cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.job-long-arrow3 {
+  position: absolute;
+  width: 54px;
+  top: 835px;
+  left: 625px;
+}
+.job-button {
+  position: absolute;
+  width: 140px;
+  height: 16px;
+  left: 0;
+  bottom: 0;
+  gap: 10px;
+  display: flex;
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #99a9ff;
+  background: none;
+  border: none;
+}
+.job-button-arrow {
+}
+.job-category {
+  position: absolute;
+  width: 267px;
+  height: 364px;
+  top: 278px;
+  left: 893px;
+}
+
+.job-category-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 38px;
+
+  text-transform: capitalize;
+
+  color: #f4f4f4;
+}
+.job-category-row {
+  width: 266px;
+  height: 26px;
+
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.job-category-row > img {
+  width: 30px;
+}
+.job-category-text {
+  font-family: "Ginora Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+  text-transform: capitalize;
+
+  color: #b8b8b8;
+}
+.job-category-text:hover {
+  color: #99a9ff;
+}
+
+.job-line-1 {
+  position: absolute;
+  width: 763px;
+  top: 443px;
+}
+.job-line-2 {
+  position: absolute;
+  width: 763px;
+  top: 681px;
+}
+
+@media (max-width: 360px) {
+  .jobs {
+    width: 360px;
+    height: 1204px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .job-spots-title {
+    position: absolute;
+    width: 292px;
+    height: 112px;
+    top: 0;
+    left: 20px;
+    display: inline;
+    margin: 0 auto;
+
+    font-family: "Ginora Sans";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #f4f4f4;
+  }
+  .job-spots {
+    position: absolute;
+    width: 360px;
+    height: 532px;
+    gap: 70px;
+    top: 596px;
+    left: ;
+  }
+  .job-1 {
+    width: 320px;
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  .job-text-top {
+    font-family: "Ginora Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3em;
+    text-align: left;
+  }
+  .job-text {
+    display: block;
+    font-family: "Ginora Sans";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .job-text-bottom {
+    font-family: "Gilroy-Medium";
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .job-2 {
+    width: 320px;
+    height: 124px;
+    margin-left: 20px;
+    justify-content: space-between;
+  }
+  .job-text-title {
+    font-family: "Ginora Sans";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .job-3 {
+    width: 320px;
+    height: 124px;
+    margin-left: 20px;
+    justify-content: space-between;
+  }
+  .job-spiral {
+    display: none;
+  }
+  .job-category {
+    position: absolute;
+    display: block;
+    width: 267px;
+    height: 364px;
+    margin: 0 auto;
+    top: 172px;
+    left: 47px;
+  }
+  .job-category-title {
+    margin: 0;
+    font-family: "Ginora Sans";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #f4f4f4;
+  }
+
+  .job-line-top {
+    display: none;
+  }
+  .job-category-text {
+    font-family: "Ginora Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #b8b8b8;
+  }
+
+  .job-line-1 {
+    width: 360px;
+    height: 5px;
+    top: 765px;
+  }
+  .job-line-2 {
+    width: 360px;
+    height: 5px;
+    top: 955px;
+  }
+  .job-long-arrow1 {
+    width: 30px;
+    top: 670px;
+    left: 310px;
+  }
+  .job-long-arrow2 {
+    width: 30px;
+    top: 843px;
+    left: 310px;
+  }
+  .job-long-arrow3 {
+    width: 30px;
+    top: 1037px;
+    left: 310px;
+  }
+  .job-button {
+    left: 21px;
+  }
+}
