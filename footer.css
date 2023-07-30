@@ -234,8 +234,8 @@ fieldset {
 
 .footer-spiral {
   position: absolute;
-  left: 0;
-  bottom: 180px;
+  left: -39px;
+  bottom: 185px;
 }
 
 .footer-href-gradient {
