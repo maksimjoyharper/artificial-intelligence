@@ -67,7 +67,7 @@ footer {
   background: none;
   padding: 0;
   padding-left: 25px;
-  border-bottom: 2px #565656;
+  outline: none;
 
   font-family: "Ginora Sans";
   font-size: 20px;
@@ -86,9 +86,11 @@ footer {
 
   color: #b8b8b8;
 }
+.input-name:focus {
+}
 .image-input-1 {
   position: absolute;
-  top: 81px;
+  top: 67px;
   left: 25px;
 }
 .input-email {
@@ -98,6 +100,7 @@ footer {
   background: none;
   padding: 0;
   padding-left: 25px;
+  outline: none;
 
   font-family: "Ginora Sans";
   font-size: 20px;
@@ -118,7 +121,7 @@ footer {
 }
 .image-input-2 {
   position: absolute;
-  top: 168px;
+  top: 154px;
   left: 25px;
 }
 .input-message {
@@ -128,6 +131,7 @@ footer {
   background: none;
   padding: 0;
   padding-left: 25px;
+  outline: none;
 
   font-family: "Ginora Sans";
   font-size: 20px;
@@ -148,22 +152,22 @@ footer {
 }
 .image-input-3 {
   position: absolute;
-  top: 255px;
+  top: 243px;
   left: 25px;
 }
 .grey-line-input1 {
   position: absolute;
-  top: 82px;
+  top: 68px;
   z-index: -1;
 }
 .grey-line-input2 {
   position: absolute;
-  top: 169px;
+  top: 155px;
   z-index: -1;
 }
 .grey-line-input3 {
   position: absolute;
-  top: 256px;
+  top: 244px;
   z-index: -1;
 }
 .right-button {
@@ -317,7 +321,6 @@ fieldset {
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
-    color: red;
   }
   .image-input-1 {
     width: 80px;

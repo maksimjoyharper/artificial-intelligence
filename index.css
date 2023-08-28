@@ -38,14 +38,14 @@
 }
 
 html {
-  width: 100%;
+  width: 1160px;
   height: 8350px;
   margin: auto;
 }
 
 body {
   position: relative;
-  width: 100%;
+  width: 1160px;
   background: #1d1d1d;
 }
 
