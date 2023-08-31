@@ -1,4 +1,4 @@
-let offset = 3;
+let offset = 0;
 
 const blogCards = document.querySelector(".blog-cards");
 

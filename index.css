@@ -46,6 +46,7 @@ html {
 body {
   position: relative;
   width: 1160px;
+  margin: auto;
   background: #1d1d1d;
 }
 

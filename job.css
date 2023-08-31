@@ -216,11 +216,13 @@
 .job-line-1 {
   position: absolute;
   width: 763px;
+  height: 1px;
   top: 443px;
 }
 .job-line-2 {
   position: absolute;
   width: 763px;
+  height: 1px;
   top: 681px;
 }
 
@@ -349,12 +351,12 @@
 
   .job-line-1 {
     width: 360px;
-    height: 5px;
+    height: 1px;
     top: 765px;
   }
   .job-line-2 {
     width: 360px;
-    height: 5px;
+    height: 1px;
     top: 955px;
   }
   .job-long-arrow1 {

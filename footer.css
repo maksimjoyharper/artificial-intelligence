@@ -1,8 +1,9 @@
 footer {
   position: relative;
-  width: 1440px;
+  width: 1160px;
   height: 608px;
-  margin: auto;
+  margin: 0 auto;
+  margin-left: 0;
 }
 .footer-text-box {
   width: 1160px;
@@ -221,7 +222,7 @@ fieldset {
 }
 
 .footer-text-bottom {
-  width: 1440px;
+  width: 1160px;
   height: 102px;
   margin: auto;
   margin-top: 60px;
@@ -236,9 +237,13 @@ fieldset {
   color: #b8b8b8;
 }
 
+.footer-line {
+  width: 1160px;
+}
+
 .footer-spiral {
   position: absolute;
-  left: -39px;
+  left: -178px;
   bottom: 185px;
 }
 
@@ -271,7 +276,6 @@ fieldset {
     text-align: left;
   }
   .left-text {
-    /* width: 300px; */
     display: inline;
     font-family: "Gilroy-Regular";
     font-size: 16px;
@@ -286,7 +290,7 @@ fieldset {
     padding: 0;
     margin: 0 auto;
     top: 660px;
-    left: 46px;
+    left: 33px;
 
     display: flex;
     gap: 20px;
@@ -301,9 +305,8 @@ fieldset {
   .footer-line {
     position: absolute;
     top: 750px;
-    left: ;
     width: 360px;
-    height: 5px;
+    height: 1px;
   }
   .text-bottom-color {
   }
@@ -325,9 +328,11 @@ fieldset {
   .image-input-1 {
     width: 80px;
     height: 3px;
+    top: 59px;
   }
   .grey-line-input1 {
     width: 320px;
+    top: 60px;
   }
   .input-email {
     width: 320px;
@@ -342,14 +347,15 @@ fieldset {
   .image-input-2 {
     width: 80px;
     height: 3px;
+    top: 138px;
   }
   .grey-line-input2 {
     width: 320px;
+    top: 139px;
   }
   .input-message {
     width: 320px;
     height: 39px;
-    margin-top: 10px;
 
     font-family: "Gilroy-Regular";
     font-size: 14px;
@@ -360,9 +366,11 @@ fieldset {
   .image-input-3 {
     width: 80px;
     height: 3px;
+    top: 216px;
   }
   .grey-line-input3 {
     width: 320px;
+    top: 217px;
   }
   .right-button {
     margin: 0;
@@ -371,7 +379,7 @@ fieldset {
   .right-text-bottom {
     position: absolute;
     top: 435px;
-    left: 70px;
+    left: 55px;
     margin: 0 auto;
     display: flex;
     gap: 25px;

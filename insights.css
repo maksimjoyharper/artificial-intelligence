@@ -76,6 +76,12 @@
   text-align: left;
   color: #b8b8b8;
 }
+.blog1:hover {
+  background: #99a9ff;
+  background: linear-gradient(to right, #99a9ff 0%, #5ce4cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .image-blog1 {
   width: 496px;
   height: 296px;
@@ -98,8 +104,9 @@
   line-height: 50px;
   letter-spacing: 0em;
   text-align: left;
+  color: #b8b8b8;
 }
-.blog2-text-gradient {
+.blog2:hover {
   background: #99a9ff;
   background: linear-gradient(to right, #99a9ff 0%, #5ce4cf 100%);
   -webkit-background-clip: text;
@@ -119,6 +126,12 @@
   letter-spacing: 0em;
   text-align: left;
   color: #b8b8b8;
+}
+.blog3:hover {
+  background: #99a9ff;
+  background: linear-gradient(to right, #99a9ff 0%, #5ce4cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .image-blog3 {
   margin-bottom: 25px;
@@ -145,6 +158,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
+
 #btn1 {
   border: none;
   font: inherit;
@@ -178,7 +192,7 @@
   }
   .insights > img {
     width: 360px;
-    height: 5px;
+    height: 1px;
     margin: auto;
   }
   .blog-cards {

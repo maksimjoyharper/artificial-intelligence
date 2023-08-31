@@ -84,7 +84,7 @@
   }
   .investment-portfolio-line {
     width: 360px;
-    height: 5px;
+    height: 1px;
     margin: 0 auto;
   }
   .line-title {
@@ -120,15 +120,15 @@
     height: 25px;
 
     font-family: "Ginora Sans";
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 300;
-    line-height: 26px;
+    line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    justify-content: flex-start;
+    /* justify-content: space-between; */
   }
 
-  .investsment-logos-box:hover {
+  .investsment-logos-box > span:hover {
     background: #8093ff;
     background: linear-gradient(to top right, #8093ff 0%, #66ffe5 100%);
     -webkit-background-clip: text;
